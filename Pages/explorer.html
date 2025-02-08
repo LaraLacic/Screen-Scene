@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genres</title>
+    <link rel="stylesheet" href="../Design/explorer.css">
+</head>
+<body>
+
+    <div id="sidebar" class="sidebar">
+        <a href="#" class="close-btn" onclick="closeSidebar()">×</a>
+        <a href="../Pages/index.html">Home</a>
+        <a href="../Pages/explorer.html">What to watch?</a>
+        <a href="../Pages/liked.html">Favorites</a>
+    </div>
+    <button class="open-btn" onclick="openSidebar()">☰ Open Sidebar</button>
+
+
+    <h1>Choose a Genre</h1>
+    <div id="genres-container">
+        <div class="genre-card" onclick="filterShows('Action')">
+            <span>Action</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Adventure')">
+            <span>Adventure</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Animation')">
+            <span>Animation</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Biography')">
+            <span>Biography</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Comedy')">
+            <span>Comedy</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Coming-Of-Age')">
+            <span>Coming-Of-Age</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Crime')">
+            <span>Crime</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Drama')">
+            <span>Drama</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Fantasy')">
+            <span>Fantasy</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Game-Show')">
+            <span>Game-Show</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('History')">
+            <span>History</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Horror')">
+            <span>Horror</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Mystery')">
+            <span>Mystery</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Romance')">
+            <span>Romance</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Sport')">
+            <span>Sport</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Talk-Show')">
+            <span>Talk-Show</span>
+        </div>
+        <div class="genre-card" onclick="filterShows('Thriller')">
+            <span>Thriller</span>
+        </div>
+        
+    </div>
+
+
+    <div id="shows-container">
+    </div>
+
+    <script src="../Scripts/explorer.js"></script>
+    <script src="../Scripts/series.js"></script>
+</body>
+</html>

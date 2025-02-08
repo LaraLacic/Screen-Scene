@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <link rel="stylesheet" href="../Design/liked.css">
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <a href="#" class="close-btn" onclick="closeSidebar()">×</a>
+        <a href="../Pages/index.html">Home</a>
+        <a href="../Pages/explorer.html">What to watch?</a>
+        <a href="../Pages/liked.html">Favorites</a>
+    </div>
+    <button class="open-btn" onclick="openSidebar()">☰ Open Sidebar</button>
+    
+    <header>
+        <h1>Favorite TV Shows</h1>
+    </header>
+
+    <main>
+        <table id="favorites-table">
+            <tbody id="favorites-body">
+            </tbody>
+        </table>
+    </main>
+    
+    <script src="../Scripts/series.js"></script>
+    <script src="../Scripts/liked.js"></script>
+</body>
+</html>
